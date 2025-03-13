@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily Bing Wallpaper
+
+[Service]
+Type=exec
+ExecStart=/usr/share/cinnamon-bing-daily-wallpaper/cinnamon-bing-daily-wallpaper
+
+[Install]
+WantedBy=timers.target

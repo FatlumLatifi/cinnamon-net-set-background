@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\CinnamonBackground\CinnamonBackground.csproj" />
+    <ProjectReference Include="..\BingWallpapers\BingWallpapers.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Linux.Cinnamon.BingDailyWallpaper</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+
+  
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <Content Include="bing-daily-wallpaper.service" CopyToPublishDirectory="PreserveNewest" LinuxFileMode="1755">
+      <LinuxPath>/etc/systemd/user/bing-daily-wallpaper.service</LinuxPath>
+    </Content>
+ <Content Include="bing-daily-wallpaper.timer" CopyToPublishDirectory="PreserveNewest" LinuxFileMode="1755">
+      <LinuxPath>/etc/systemd/user/bing-daily-wallpaper.timer</LinuxPath>
+    </Content>
+    <RpmDotNetDependency Remove="@(RpmDotNetDependency)" />
+    <RpmDotNetDependency Include="libgio-2_0-0" />
+  </ItemGroup>
+</Project>

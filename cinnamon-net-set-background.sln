@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinnamonBackground", "CinnamonBackground\CinnamonBackground.csproj", "{A2725A07-839C-ADBD-7939-F50F16BB1380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingWallpapers", "BingWallpapers\BingWallpapers.csproj", "{9C0E4E1E-CDEA-88FF-6592-B28F3A84A06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cinnamon-bing-daily-wallpaper", "cinnamon-bing-daily-wallpaper\cinnamon-bing-daily-wallpaper.csproj", "{060C5A0E-F427-1A01-9D40-9A5DBB599532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2725A07-839C-ADBD-7939-F50F16BB1380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2725A07-839C-ADBD-7939-F50F16BB1380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2725A07-839C-ADBD-7939-F50F16BB1380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2725A07-839C-ADBD-7939-F50F16BB1380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0E4E1E-CDEA-88FF-6592-B28F3A84A06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0E4E1E-CDEA-88FF-6592-B28F3A84A06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0E4E1E-CDEA-88FF-6592-B28F3A84A06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0E4E1E-CDEA-88FF-6592-B28F3A84A06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060C5A0E-F427-1A01-9D40-9A5DBB599532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060C5A0E-F427-1A01-9D40-9A5DBB599532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060C5A0E-F427-1A01-9D40-9A5DBB599532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060C5A0E-F427-1A01-9D40-9A5DBB599532}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {141538D0-103F-480E-BDDD-118A1275732A}
+	EndGlobalSection
+EndGlobal
