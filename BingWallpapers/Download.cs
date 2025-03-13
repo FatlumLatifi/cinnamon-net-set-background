@@ -1,8 +1,10 @@
 using System.Collections.Immutable;
 using System.Net.Http.Json;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace BingWallpapers;
+namespace BingWallpapers
+{
 
 public class WallpaperDownloader:IDisposable
 {
@@ -70,4 +72,5 @@ public class WallpaperDownloader:IDisposable
     {
 
     }
+}
 }

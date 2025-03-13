@@ -1,12 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Linux.Cinnamon.Wallpaper</PackageId>
+      <LangVersion>10.0</LangVersion> <!-- Add this line -->
+    <Description>Change wallpaper on Cinnamon desktop environment</Description>
+    <RepositoryUrl>https://github.com/FatlumLatifi/cinnamon-net-set-background/tree/main/CinnamonBackground</RepositoryUrl>
+     <PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
+    <Version>0.0.1</Version>
+    <Authors>LumLev</Authors>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DebugSymbols>False</DebugSymbols>
     <DebugType>None</DebugType>
+   
 </PropertyGroup>
 </Project>
