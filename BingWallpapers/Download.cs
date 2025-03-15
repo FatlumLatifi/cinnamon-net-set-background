@@ -18,7 +18,7 @@ public class WallpaperDownloader:IDisposable
     {
       _client = new() { BaseAddress = new("https://www.bing.com"),  };
       _downloadDirectory = directory;
-      _path = Path.Combine(_downloadDirectory.FullName, "0.jpg");
+      _path = Path.Combine(_downloadDirectory.FullName, $"{DateTime.Now.ToString("dd-MM-yyyy")}.jpg");
     }
 
     public async Task<FileInfo> DownloadDailyAsync()

@@ -2,7 +2,8 @@
 using Linux.Cinnamon;
 
 // Checks and creates directory to hold image
-const string directoryPath = "~/.local/share/bing-daily-wallpaper";
+const string directoryPath = "/var/tmp/bing-daily-wallpaper";
+
 DirectoryInfo di;
 if (Directory.Exists(directoryPath) is false) 
 { di = Directory.CreateDirectory(directoryPath); }
