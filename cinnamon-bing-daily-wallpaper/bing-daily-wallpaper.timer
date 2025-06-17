@@ -7,4 +7,4 @@ Unit=bing-daily-wallpaper.service
 Persistent=true
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=timers.target
