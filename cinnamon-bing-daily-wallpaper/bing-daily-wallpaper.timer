@@ -3,6 +3,8 @@ Description=Daily Bing Wallpaper
 
 [Timer]
 OnCalendar=Mon..Sun *-*-* 20:00:00
+Unit=bing-daily-wallpaper.service
+Persistent=true
 
 [Install]
 WantedBy=timers.target
